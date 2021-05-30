@@ -1,0 +1,7 @@
+May 29, 2021
+Learned:
+    <head> and <body> tags
+    how to display images
+    how to link to external site
+    how to change fonts
+    how to create input element

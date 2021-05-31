@@ -5,3 +5,7 @@ Learned:
     how to link to external site
     how to change fonts
     how to create input element
+
+May 30, 2021
+Learned:
+    Very basic flexbox alignment

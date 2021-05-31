@@ -1,6 +1,36 @@
-p {
-    color: red;
-}
 body {
     font-family: arial, sans-serif;
+    font-size: 13px;
+}
+.top {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.top-left {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+}
+.top-right {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    margin-left: auto;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 150px;
+}
+.sign-in {
+    background-color: #4285f4;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.search-bar {
+    border-radius: 10px;
 }

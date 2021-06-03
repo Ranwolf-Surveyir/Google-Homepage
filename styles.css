@@ -27,9 +27,12 @@ body {
     margin: 0 10px;
     justify-content: space-around;
 }
+.center-element {
+    margin: 10px 10px 10px 10px;
+}
 .center {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
     padding: 150px;
@@ -66,8 +69,30 @@ body {
     text-align: center;
     padding: 10px 20px;
 }
+.search-element {
+    border: 1px solid black;
+    border-width: 1px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    opacity: 0.2;
+}
 .search-bar {
-    border-radius: 10px;
+    border: transparent;
+    border-width: 1px;
+    border-radius: 20px;
     width: 450px;
     height: 20px;
+    background-color: rgba(33 33 33 0.2);
+    padding: 10px;
+}
+.search-button {
+    border: none;
+    background-color: white;
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px 20px;
+}
+.search-button:hover {
+    box-shadow: 5px 5px 11px rgba(33 33 33 0.2);
 }

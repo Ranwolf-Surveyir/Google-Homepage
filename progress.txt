@@ -9,3 +9,15 @@ Learned:
 May 30, 2021
 Learned:
     Very basic flexbox alignment
+
+May 31, 2021
+Learned:
+    Very basic padding
+
+Jun 2, 2021
+Learned:
+    how to add borders to <div>
+    not to define two class attributes in an element
+        should be one class separated by a space instead
+        EX: <i class="material-icons search-glass">search</i>
+    

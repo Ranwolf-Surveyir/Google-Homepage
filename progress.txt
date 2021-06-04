@@ -21,3 +21,7 @@ Learned:
         should be one class separated by a space instead
         EX: <i class="material-icons search-glass">search</i>
     
+Jun 4, 2021
+Learned:
+    Combinators
+        targets children of the element (I think?)

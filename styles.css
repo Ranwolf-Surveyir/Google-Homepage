@@ -15,6 +15,10 @@ body {
     padding: 10px;
     margin: 5px;
 }
+.top-left > div {
+    margin: 0 10px;
+    justify-content: space-around;
+}
 .top-right {
     display: flex;
     justify-content: flex-end;
@@ -23,12 +27,13 @@ body {
     margin: 5px;
     margin-left: auto;
 }
-.element {
+.top-right > div {
     margin: 0 10px;
     justify-content: space-around;
 }
-.center-element {
-    margin: 10px 10px 10px 10px;
+.element {
+    margin: 0 10px;
+    justify-content: space-around;
 }
 .center {
     display: flex;
@@ -36,6 +41,9 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 150px;
+}
+.center > div {
+    margin: 10px;
 }
 .bottom {
     display: flex;
@@ -52,12 +60,20 @@ body {
     justify-content: flex-start;
     align-items: center;
 }
+.bottom-left > div {
+    margin: 0 10px;
+    justify-content: space-around;
+}
 .bottom-middle {
     display: flex;
     align-items: center;
 }
 .bottom-right {
     display: flex;
+    justify-content: space-around;
+}
+.bottom-right > div {
+    margin: 0 10px;
     justify-content: space-around;
 }
 .sign-in {
@@ -70,16 +86,18 @@ body {
     padding: 10px 20px;
 }
 .search-element {
-    border: 1px solid black;
+    border: 1px solid #dfe1e5;
     border-width: 1px;
     border-radius: 20px;
     display: flex;
     align-items: center;
+}
+.search-glass {
     opacity: 0.2;
 }
 .search-bar {
     border: transparent;
-    border-width: 1px;
+    border-width: 0px;
     border-radius: 20px;
     width: 450px;
     height: 20px;
@@ -87,12 +105,13 @@ body {
     padding: 10px;
 }
 .search-button {
-    border: none;
+    border: transparent;
     background-color: white;
     border-radius: 4px;
     text-align: center;
     padding: 10px 20px;
 }
 .search-button:hover {
-    box-shadow: 5px 5px 11px rgba(33 33 33 0.2);
+    border: 1px solid #dfe1e5;
+    border-color: #dfe1e5;
 }
